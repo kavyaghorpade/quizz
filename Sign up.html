@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en>
+<head>
+<title>Sign Up</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/style.css"/>  
+<style>
+body {
+  background-color: #6abadeba;
+  font-family: 'Arial';
+}
+
+.signup-box {
+  width: 390px;
+  height: 620px;
+  margin: auto;
+  background-color: white;
+  border-radius: 1px;
+}
+
+
+
+h2 {
+  text-align:center;
+  padding-top: 50px;
+}
+
+
+
+form {
+  width: 300px;
+  margin-left: 525px;
+}
+
+form label {
+  display: flex;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+input[type="button"] {
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color:#49c1a2;
+  color: white;
+  font-size: 18px;
+}
+p {
+  text-align:center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="Signup-box">
+<h2> sign up</h2>
+<form>
+        <label>First Name</label>
+        <input type="text" id="fname" placeholder="First Name" >
+
+        <label>Last Name</label>
+        <input type="text"  id="lname" placeholder="Last Name" >
+        <label>Email</label>
+        <input type="email" id="email" placeholder="Email" >
+        <label>Password</label>
+        <input type="password" id="pwd" placeholder="Password" >
+        <label>Confirm Password</label>
+        <input type="password"  id="pwd" placeholder="Confirm Password" >
+<br>
+        <button type="submit">sign up</button>
+      </form>
+
+ </div>
+    <p class="para-2">
+      Already have an account? <a href="login.html">Login</a>
+    </p>
+<script src="localstore.js"></script>
+  </body>
+</html>
+
